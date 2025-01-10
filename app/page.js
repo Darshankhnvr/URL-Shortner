@@ -10,8 +10,8 @@ export default function Home() {
       <p className="font-bold text-2xl">The best url shortner</p>
       <p>Most straight forward app </p>
       <div className='flex gap-3 pr-3'>
-        <Link href="/generate"><button className='bg-purple-400 shadow-lg rounded-md px-1'>Try Now</button></Link>
-        <Link href="/about"><button className='bg-purple-400 shadow-lg rounded-md px-1'>Github</button></Link>
+        <Link href="/shorten"><button className='bg-purple-400 shadow-lg rounded-md px-1'>Try Now</button></Link>
+        {/* <Link href="/about"><button className='bg-purple-400 shadow-lg rounded-md px-1'>Github</button></Link> */}
         </div>
       </div>
       <div className=" flex justify-start relative">
