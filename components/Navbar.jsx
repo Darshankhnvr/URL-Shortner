@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <nav className='h-20 bg-purple-600 flex justify-between items-center text-white px-2 '>
+    <nav className='h-20 bg-purple-500 flex justify-between items-center text-white px-2 '>
         <div className='font-bold text-2xl '>
         <Link href="/"> URLer</Link>
         </div>
